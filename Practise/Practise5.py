@@ -1,0 +1,12 @@
+#To print your data
+name = input("What is your name? : ")
+age = input("How old are you? : ")
+height = int(input("What is your height? : "))
+hobbies = input("What are your hobbies? : ")
+print("[...YOUR DATA...]")
+print("Your name is ", name)
+print("Your age is ", age)
+print("Your height is ", height)
+print("Your hobbies are ", hobbies)
+print(f"[...DATA OF {name}...]")
+print(f"Your name is {name}. {name}'s height is {height}. {name}'s age is {age}. {name}'s hobbies are {hobbies}")
